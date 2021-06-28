@@ -9,7 +9,6 @@ body {
   margin: 0;
   font-size: 18px;
   font-weight: 400;
-  min-width: 620px;
   color: #fff;
 }
 
@@ -22,6 +21,11 @@ section {
 header,
 .section-dark {
   background-color: #2e354f;
+}
+
+.container {
+  width: 620px;
+  margin: 0 auto;
 }
 
 h2,
@@ -63,4 +67,10 @@ h2,
 .btn:focus {
   opacity: 0.85;
   transform: scale(0.95);
+}
+
+.link:hover,
+.link:focus {
+  font-size: 20px;
+  font-weight: 900;
 }
