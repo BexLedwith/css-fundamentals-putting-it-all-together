@@ -18,6 +18,19 @@ section {
   padding: 20px 30px;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
 header,
 .section-dark {
   background-color: #2e354f;
